@@ -28,3 +28,5 @@ body {
     max-width: 500px; 
     height: auto; 
 }
+body.messenger-webview .container {
+    padding-top: calc(env(safe-area-inset-top, 0px) + 56px);
